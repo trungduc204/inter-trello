@@ -5,7 +5,7 @@ import App from './App.tsx'
 import CssBaseline from '@mui/material/CssBaseline'
 
 
-import theme from './theme.tsx'
+import theme from './theme.ts'
 import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/styles';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
