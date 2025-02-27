@@ -33,8 +33,8 @@ function Profile() {
           aria-expanded={open ? "true" : undefined}
         >
           <Avatar
-            sx={{ width: 30, height: 30 }}
-            src="https://i.pinimg.com/736x/cd/5b/70/cd5b70dd31d63d7790c88bce31078719.jpg"
+            sx={{ width: 32, height: 32 }}
+            src="https://i.pinimg.com/736x/ed/a7/80/eda780563f60f1e8cd0948c3845b9532.jpg"
           />
         </IconButton>
       </Tooltip>
@@ -55,11 +55,11 @@ function Profile() {
         }}
       >
         <MenuItem onClick={handleClose}>
-          <Avatar sx={{ width: 28, height: 28, mr: 2 }} /> Profile
+          <Avatar src="https://i.pinimg.com/736x/ed/a7/80/eda780563f60f1e8cd0948c3845b9532.jpg" sx={{ width: 28, height: 28, mr: 2 }} /> Trung Duc
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <Avatar sx={{ width: 28, height: 28, mr: 2 }} /> My account
-        </MenuItem>
+        {/* <MenuItem onClick={handleClose}>
+          <Avatar src="https://i.pinimg.com/736x/ed/a7/80/eda780563f60f1e8cd0948c3845b9532.jpg" sx={{ width: 28, height: 28, mr: 2 }} /> My account
+        </MenuItem> */}
         <Divider />
         <MenuItem onClick={handleClose}>
           <ListItemIcon>
